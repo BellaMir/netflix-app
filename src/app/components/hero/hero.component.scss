@@ -1,5 +1,5 @@
 .hero{
-  margin: 50px 350px;
+  margin: 40px 250px;
   //margin-top: 20px;
 display: flex;
 justify-content: space-between;
@@ -8,11 +8,25 @@ flex-wrap: wrap;
 align-content: center;
   &__item{
       align-content: center;
-      margin: 10px, 20px;
+     //margin: 10px, 20px;
+      width: 400px;
       img{
           width: 200px;
+          position: relative;
+          left: 120px;
           //height: 130px;
           //border: 4px solid black;
       }
   }
 }
+.hero_number{
+  position: absolute;
+  //padding-top: -20px;
+  font-size: 230px;
+
+  font-family: 'Train One', cursive;
+  color: #dc1a28;
+  z-index: 2;
+}
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+

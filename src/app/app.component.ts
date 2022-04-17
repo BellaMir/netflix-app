@@ -20,19 +20,19 @@ export class AppComponent {
   ]
 
   heroGallery = [{
-      name: "",
+      name: "1",
       photo: "../assets/images/Top10/1-papel.webp"
     },
     {
-      name: "",
+      name: "2",
       photo: "../assets/images/Top10/10-gooddoctor.webp"
     },
     {
-      name: "",
+      name: "3",
       photo: "../assets/images/Top10/2-reina.webp"
     },
     {
-      name: "",
+      name: "4",
       photo: "../assets/images/Top10/3-titanes.webp"
     }]
 
