@@ -1,0 +1,9 @@
+<nav class="navigator">
+  <img src="../assets/images/LOGO/logo.png">
+  <ul class="navigator__item">
+   <li *ngFor="let item of navArray">
+    <a href="{{item.link}}">{{item.name}}</a>
+   </li>
+   <button (click)="changeTem()">Change Theme</button>
+ </ul>
+</nav>

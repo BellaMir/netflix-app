@@ -1,0 +1,8 @@
+<div>
+  <h2 class="title">{{filmsGallery.section}}</h2>
+ <section class="gallery">
+  <article class="gallery__item" *ngFor="let element of filmsGallery.films">
+    <img src="{{ element.photo }}" alt="{{element.title}}" />
+  </article>
+</section>
+</div>
